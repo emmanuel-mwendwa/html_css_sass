@@ -1,4 +1,7 @@
 @media screen and (max-width: 560px) {
+    body {
+        background-image: linear-gradient(to left top, rgb(185, 185, 186), rgba(209, 144, 224, 0.612))
+    }
     header {
         .navigation-bar {
             display: flex;
