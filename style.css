@@ -1,2 +1,2 @@
-@import url(stylesheets/mobile.css);
-@import url(stylesheets/laptop.css);
+@import url(stylesheets/mobile.css)  screen and (max-width: 560px);
+@import url(stylesheets/laptop.css) screen and (min-width: 561px);

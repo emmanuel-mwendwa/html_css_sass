@@ -14,23 +14,24 @@
     width: 30px;
     height: 30px;
     margin-right: 8px;
+    border-radius: 50%;
   }
   header .navigation-bar .company-logo h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
   header .navigation-bar .important-links {
     order: 1;
   }
   header .navigation-bar .important-links .hamburger-menu-container {
     background-color: rgba(38, 14, 195, 0.8);
-    padding: 4px;
+    padding: 6px;
     border-radius: 12px;
   }
   header .navigation-bar .important-links .hamburger-menu-container .hamburger-menu-item {
     width: 20px;
     height: 2px;
     border-radius: 12px;
-    margin: 4px 2px;
+    margin: 6px 2px;
     background-color: white;
   }
   header .navigation-bar .important-links ul {
@@ -39,18 +40,18 @@
   header .navigation-bar .important-buttons {
     order: 3;
   }
-  header .navigation-bar .important-buttons .login {
+  header .navigation-bar .important-buttons button {
     border: none;
-    background-color: transparent;
-    padding: 12px 20px;
+    padding: 12px 18px;
     border-radius: 22px;
+    font-size: 12px;
+  }
+  header .navigation-bar .important-buttons .login {
+    background-color: transparent;
     margin-right: 4px;
   }
   header .navigation-bar .important-buttons .signup {
-    border: none;
     background-color: rgba(38, 14, 195, 0.8);
-    padding: 12px 20px;
-    border-radius: 22px;
     color: white;
   }
   main {
@@ -68,10 +69,12 @@
     padding: 14px 28px;
     border: none;
     border-radius: 22px;
+    font-size: 12px;
   }
   main .sample-words h1 {
     margin-top: 30px;
     text-align: center;
+    font-size: 30px;
   }
   main .sample-words h1 .pink-color {
     color: darkmagenta;
@@ -97,7 +100,7 @@
   }
   main .sample-images {
     order: 1;
-    margin: 100px auto;
+    margin: 70px auto;
   }
   main .sample-images div {
     display: grid;
@@ -107,13 +110,13 @@
     align-items: center;
   }
   main .sample-images div img {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     border-radius: 30px;
   }
   main .sample-images div .sunset {
     grid-row: span 2;
-    height: 400px;
+    height: 300px;
   }
   footer {
     margin-top: 100px;
@@ -121,13 +124,14 @@
   footer div ul {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.7rem;
     align-items: center;
     justify-content: center;
+    margin: 0px auto;
     list-style-type: none;
   }
   footer div ul li {
-    margin: 10px;
-    font-size: 30px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.4);
   }
 }
