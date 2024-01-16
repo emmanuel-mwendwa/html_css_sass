@@ -103,7 +103,7 @@
   }
   main .sample-images {
     order: 1;
-    margin: 70px auto;
+    margin: 28px auto;
   }
   main .sample-images div {
     display: grid;
@@ -122,7 +122,7 @@
     height: 300px;
   }
   footer {
-    margin-top: 100px;
+    margin-top: 46px;
   }
   footer div ul {
     display: flex;
